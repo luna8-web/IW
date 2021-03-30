@@ -1,2 +1,2 @@
-#https://github.com/luna8-web/IW./blob/main/2%20index.html
+#file:///C:/Users/Katar/Desktop/Etec-%20sites/2%20index.html
 aula iw
