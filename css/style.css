@@ -1,12 +1,16 @@
 body{
-    width: 80% 
-   
-    margin-right: right;
-    margin-left: right;
+    
     background-image: url("../imagens/fundo.jpg"); width: 100%
     background-repeat: round;
 } 
 
+.container{
+     width: 80%
+     margin-right:auto;
+     margin-left: auto;
+     text-align: center;
+
+}
     a:{visited   
     color: green;
     background-color: transparent;
@@ -65,12 +69,15 @@ table{
   color: #6B8E23;
 }
   
+  .centro{
+    text-align: center;
+  }
   td, th {
   border: 1px solid #dddddd;
   text-align: left;
   padding: 8px;}
 
   tr:nth-child(even) {
-  background-color: #EEE8AA;
+  background-color: #EEE8AA; }
   
-
+    
