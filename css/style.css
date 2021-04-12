@@ -33,6 +33,14 @@ h1, h2{
   text-align: center;
   color:#B0E0E6; 
   font-weight: bolder;
+  margin-top: 100%
+  margin-bottom:100%;
+  font-size: 20px;
+}
+
+header, footer{
+  background-color: rgba(99,184,255, 0.7);
+  padding: 2%
 }
 
 p{ 
@@ -40,15 +48,21 @@ p{
   font-weight:bolder;
   font-size: 20px;
   text-align: justify;
+  margin-top: 1%
+  margin-bottom:1%;
 }
 ul{
   font-size: 20px;
   text-align: justify;
+  margin-top: 1%
+  margin-bottom:1%
 }
 ul li{
 
   color:#EEE8AA;
   text-align: justify;
+  margin-top: 1%
+  margin-bottom:1%
 }
 
 
@@ -71,7 +85,7 @@ table{
   
   .centro{
     text-align: center;
-  }
+       }
   td, th {
   border: 1px solid #dddddd;
   text-align: left;
