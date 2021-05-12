@@ -1,34 +1,40 @@
 body{
     
-    background-image: url("../imagens/fundo.jpg"); width:100%
-    background-repeat: round;
+    background-color:#2F4F4F;
+    
 } 
 
 .container{
-     width: 80%
+     width: 100%
      margin-right:auto;
      margin-left: auto;
      text-align: center;
 
 }
-    a:{visited   
-    color: green;
-    background-color: transparent;
-    text-decoration: none;
- }
-    a:hover{
-    color: red;
-    background-color: transparent;
-    text-decoration: underline;
+    a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
 }
 
-    a:active {
-    color: yellow;
-    background-color: transparent;
-    text-decoration: underline;
-    
+a:visited {
+  color: lightblue;
+  background-color: transparent;
+  text-decoration: none;
 }
-h1{ font-size: 4em;
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+h1{ font-size: 4em ; font-color:#2F4F4F;
 
 
 } 
@@ -74,7 +80,7 @@ ul li{
 }
 
 
-img{  
+img{   
 
     width: 80%;
     border: 5px solid  #B0E0E6; 
@@ -93,6 +99,8 @@ table{
   
   .centro{
     text-align: center;
+    color: #F8F8FF;
+    
        }
   td, th {
   border: 1px solid #dddddd;
