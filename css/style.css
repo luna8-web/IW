@@ -1,14 +1,18 @@
+html{
+  scroll-behavior: smooth;
+}
 body{
     
     background-color:#2F4F4F;
     
 } 
-
 .container{
-     width: 100%
+     margin-top: 40%;
+     width: 80%;
      margin-right:auto;
      margin-left: auto;
      text-align: center;
+     position: relative;
 
 }
     a:link {
@@ -18,7 +22,7 @@ body{
 }
 
 a:visited {
-  color: lightblue;
+  color: #F5F5F5;
   background-color: transparent;
   text-decoration: none;
 }
@@ -53,10 +57,79 @@ h2{ font-size: 4em;
 }
 
 header, footer{
-  background-color: rgba(99,184,255, 0.7);
-  padding: 2%
+  background-color: rgba(176,224,230);
+  padding: 1%;
+  position: relative;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.5em;
+  line-height: 1.5;
+    }
 
+ @media screen and (min-width: 599px) {
+  
+      .container{  
+                   margin-top:65%;
+     }
+     }
+ @media screen and (min-width: 600px) {
+  
+      .container{  
+                   margin-top:40%;
+     }
+     }
+ @media screen and (min-width: 768px) {
+  .container{  
+                margin-top:20%; }
+     
+     header{
+    background-color: rgba(176,224,230);
+    flex-direction: row; 
+    position: relative;
+    height: 130px;
+       }
+        .imglogo{
+  position: absolute;
+  top: 10px;
+  left: 5%;
+ }
+       .menu-opcoes{
+        position: absolute;
+        right: 5%;
+        top: 50%; 
+       }
+
+       .menu-opcoes ul li{
+        display: inline;
+        margin-left: 10px;
+
+       }
+   }
+.listatexto{
+    color:#EEE8AA;
+    font-weight: bolder;
+    margin-top: 1%;
+    margin-bottom: 1%
+    font-size:1em; 
 }
+
+.fixo{
+  position: fixed;
+  top:0;
+  right:0;
+  left:0;
+  z-index: 1030;
+}
+.ajustes{
+  line-height: 1;
+  text-align: center;
+}
+.ajustes li:hover{
+        background-color:#708090;
+        
+}
+
 
 p{ 
   color:#EEE8AA;
@@ -80,12 +153,13 @@ ul li{
 }
 
 
-img{   
+.imgtexto{   
 
-    width: 80%;
+    width: 75%;
     border: 5px solid  #B0E0E6; 
 
 }
+
 
 figure{
   text-align: center; }
@@ -110,4 +184,6 @@ table{
   tr:nth-child(even) {
   background-color: #EEE8AA; }
   
+
+                                   
     
