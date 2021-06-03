@@ -122,7 +122,7 @@ p{
 .imgtexto{   
 
     border: 5px solid  #B0E0E6; 
-    width: 75%;
+    width: percentual;
 }
 
     a:link {
