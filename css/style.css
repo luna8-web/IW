@@ -82,7 +82,7 @@ header, footer{
                            top: 10px;
                            left: 5%;
                  }
-
+                }
 h1{
 
      font-size: 4em ; font-color:#2F4F4F;
@@ -121,8 +121,8 @@ p{
     
 .imgtexto{   
 
-    border: 5px solid  #B0E0E6; 
-    width: percentual;
+      border: 5px solid  #B0E0E6; 
+      width: 60%;
 }
 
     a:link {
