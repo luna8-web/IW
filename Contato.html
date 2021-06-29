@@ -1,0 +1,105 @@
+<DOCTYPE! html>
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="shortcut icon" href="imagens/innovation.png">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+</head>
+<body>
+       <header class="fixo">
+               <h1><img class="imglogo" src="imagens/webot.png"></h1>
+               <nav class="menu-opcoes">
+                   <ul class="ajustes">
+                            <li><a href="index.html">Início</a></li>
+                            <li><a href="index.html#sobre">Sobre</a></li>
+                            <li><a href="index.html#html">HTML</a></li>
+                            <li><a href="index.html#CSS">CSS</a></li>
+                            <li><a href="java.html">JavaScript</a></li>
+                            <li><a href="index.html#galeria">Galeria</a></li>
+                            <li><a href="Contato.html">Contato</a></li>
+                </ul>
+          </nav>
+     </header>
+     <div class="container">
+<h1 class="titulos">Formulário de contato </h1>
+    <p class="centro">Entre em contato conosco para sanar suas dúvidas!</p>
+    <div class="fundo">
+        <form>
+            <div class="distancia">
+                
+                <input type="text" placeholder="Digite seu nome">
+        </div>
+        <div class="distancia">
+                
+                <input type="text" placeholder="Digite seu sobrenome">
+            </div>
+            <div class="distancia">
+                
+                <input type="text" placeholder="Digite o assunto">
+        </div>
+        <div class="distancia">
+            <fieldset>
+              <legend>Genêro</legend> 
+                 <input type="radio"id="Homem " name="gender" value="Homem ">
+                 <label for="Homem">Homem </label><br>
+                 <input type="radio"id="Mulher" name="gender" value="Mulher">
+                 <label for="Mulher">Mulher </label><br>
+                 <input type="radio"id="Não-binário" name="gender" value="Não-binário">
+                 <label for="Não-binário">Não-binário</label><br>
+                 <input type="radio"id="Outros" name="gender" value="Outros">
+                 <label for="Outros">Outros </label><br>
+                   </fieldset>     
+        </div>
+        <div class="distancia">
+            <fieldset>
+                <legend>Gosto musical</legend>
+                    <input type="checkbox"id="Rock" name="gender" value="Rock">
+                    <label for="Rock">Rock </label><br>
+                    <input type="checkbox"id="Indie" name="gender" value="Indie">
+                    <label for="Indie">Indie</label><br>
+                    <input type="checkbox"id="MPB" name="gender" value="MPB">
+                    <label for="MPB">MPB</label><br>
+                    <input type="checkbox"id="Sertanejo" name="gender" value="Sertanejo">
+                    <label for="Sertanejo">Sertanejo </label><br>
+                </fieldset>
+
+        </div>
+        <div class="distancia">
+            <fieldset>
+            <legend>De um a cinco, o quanto nosso conteúdo te ajudou?</legend>
+        <input type="number" name="quantidade" min="1" max="5">
+            </fieldset>
+        </div>
+        <div class="distancia">
+
+            <h5>Escolaridade</h5>
+                <select>
+                    <option value="Fundamental">Fundamental</option>
+                    <option value="Ensino Médio">Ensino Médio</option>
+                    <option value="Superior">Superior</option>
+                    <option value="Especialização">Especialização</option>
+                     <option value="Nenhum">Nenhum</option>
+                </select>
+        </div>
+        
+        <div class="distancia">
+            <label >Sugestão ou Dúvidas</label>
+            <textarea name="message" style="width: 100%; height:200px;" >Digite o seu texto</textarea>
+        </div>
+        <div class="distancia">
+             <input type="submit" >
+        </div>
+        </form>
+</div>
+</div>
+<footer>
+    <p class="centro">Rodapé</p>
+</footer>
+</body>
+</html>
