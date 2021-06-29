@@ -117,7 +117,9 @@ p{
   font-size: 1.2em;
   text-align: justify;
   margin-top: 2%;
-  margin-bottom:2%;}
+  margin-bottom:2%;
+  padding-left: 7%;
+}
    
   .listatexto{
       color:#EEE8AA;
